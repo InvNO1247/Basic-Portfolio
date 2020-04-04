@@ -20,7 +20,7 @@ h1 {
     height: 75px;
     display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 2px solid grey;
+    border-bottom: 4px solid grey;
     position: relative;
 }
 
@@ -83,4 +83,22 @@ img {
 
 body {
     margin: 0;
+}
+
+button {
+    width: 75px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.contact {
+    border-bottom: 4px solid gray;
+    height: 50px;
+}
+
+trivial {
+    height: 50px;
+    width: 50px;
+    float: left;
+    
 }
