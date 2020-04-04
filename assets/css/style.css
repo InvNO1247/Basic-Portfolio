@@ -66,13 +66,12 @@ footer {
     border: #dddddd;
 }
 
-body {
+.container {
     background-color: #ffffff;
     font-size: 24px;
     line-height: 32px;
     color: #777;
-    margin: 0;
-    border-style: none;
+    width: 960px;
 
 }
 
@@ -82,6 +81,6 @@ img {
     padding-right: 15px;
 }
 
-.container {
-
+body {
+    margin: 0;
 }
