@@ -49,16 +49,17 @@ h1 {
 
 }
 
+
 footer {
     width: 100%;
     background-color: grey;
     text-align: center;
     height: 50px;
-    bottom: 0;
     border-top: 8px solid #4aaaa5;
     color: #ffffff;
-    position: absolute; bottom: 0; left: 0; right: 0;
+    line-height: 75px;
 }
+
 
 .wrapper {
     width: 960px;
@@ -97,9 +98,18 @@ button {
 }
 
 .trivial {
-   float: left;
+   
 }
 
 .wow {
-    float: right;
+
+}
+
+.photos {
+    position: relative;
+    margin: auto;
+}
+
+.newfooter {
+    position: absolute bottom 0;
 }
