@@ -98,18 +98,24 @@ button {
 }
 
 .trivial {
+    float: left;
+    width: 33%;
+    
    
 }
 
 .wow {
-
+    float: left;
 }
 
 .photos {
     position: relative;
     margin: auto;
+    width: 600px;
+    height: 600px;
 }
 
 .newfooter {
-    position: absolute bottom 0;
+    position: absolute;
+    bottom: 0px;
 }
